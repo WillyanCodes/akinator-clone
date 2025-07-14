@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Akinator Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Akinator Clone</h1>
+  <div id="question-area">
+    <p id="question">Clique em "Começar" para iniciar.</p>
+    <div id="buttons" style="display: none;">
+      <button onclick="answer('sim')">Sim</button>
+      <button onclick="answer('nao')">Não</button>
+      <button onclick="answer('talvez')">Talvez</button>
+    </div>
+  </div>
+  <button id="start-btn" onclick="startGame()">Começar</button>
+  <script src="script.js"></script>
+</body>
+</html>
